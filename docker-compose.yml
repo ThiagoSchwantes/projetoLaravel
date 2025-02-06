@@ -17,7 +17,7 @@ services:
 
     # nginx
     nginx:
-        image: nginx:latest
+        image: nginx:alpine #se não der use latest
         restart: unless-stopped
         ports:
             - "8000:80"
